@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="inventor"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="C:\sgi\inventor\build\inventor;C:\sgi\inventor\build\inventor\lib\interaction\include;C:\sgi\inventor\build\inventor\lib\nodekits\include;C:\sgi\inventor\build\inventor\lib\database\include"
+		PreprocessorDefinitions="WIN32"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="inventor.lib"
+		AdditionalLibraryDirectories="C:\sgi\inventor\install\lib"
+	/>
+</VisualStudioPropertySheet>
